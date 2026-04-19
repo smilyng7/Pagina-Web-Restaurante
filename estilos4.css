@@ -1,0 +1,31 @@
+.title{
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+textarea{
+    padding: 10px;
+    margin: 10px 0;
+    resize: none;
+}
+
+main{
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+section{
+    width: 65%;
+}
+
+aside{
+    width: 35%;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}

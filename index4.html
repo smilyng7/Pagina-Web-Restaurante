@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Tenedor y Plata</title>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        header{
+            background-color:#336c83;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        main{
+            display: flex;
+            gap: 30px;
+            width: 90%;
+            margin: 30px auto;
+        }
+
+        
+        form{
+            width: 60%;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .form-group{
+            margin: 10px 0;
+        }
+
+        input, textarea{
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+        }
+
+        button{
+            background-color: #336c83;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        
+        aside{
+            width: 40%;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        iframe{
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        footer{
+            background-color: #336c83;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1 class="title">Contáctanos</h1>
+    <p>Tenedor y Plata - La sazón de Orfe</p>
+</header>
+
+<main>
+
+    <form>
+        <h2>Envíanos un mensaje</h2>
+
+        <div class="form-group">
+            <label>Nombre</label>
+            <input type="text" required>
+        </div>
+
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" required>
+        </div>
+
+        <div class="form-group">
+            <label>Teléfono</label>
+            <input type="tel" required pattern="[0-9]{9}">
+        </div>
+
+        <div class="form-group">
+            <label>Mensaje</label>
+            <textarea rows="4" required></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    
+    <aside>
+        <h2>Información de contacto</h2>
+
+        <p>📍 La Molina, Lima</p>
+        <p>📞 956266206</p>
+        <p>⏰ 12:00 pm - 9:00 pm</p>
+        <p>✉️ tenedoryplata@gmail.com</p>
+
+        <h3>Ubicación</h3>
+
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d389.8050103852848!2d-76.94291668100966!3d-12.07686602087688!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6e0c74deb49%3A0x282867f36845f793!2sC.%20Molinero%20Mz.B%20-%20Lt.20%2C%20La%20Molina%2015024!5e1!3m2!1ses-419!2spe!4v1776571014830!5m2!1ses-419!2spe"
+            height="250"
+            style="border:0;"
+            loading="lazy">
+        </iframe>
+
+    </aside>
+
+</main>
+
+<footer>
+    <p>© 2026 Tenedor y Plata</p>
+</footer>
+
+</body>
+</html>

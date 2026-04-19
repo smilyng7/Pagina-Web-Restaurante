@@ -1,0 +1,24 @@
+.contenido-flex{
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+}
+
+.contenido-flex .texto{
+    width: 60%;
+}
+
+.contenido-flex .imagen{
+    width: 40%;
+}
+
+.contenido-flex img{
+    width: 100%; 
+    border-radius: 20px;
+}
+
+iframe{
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 10px;
+}

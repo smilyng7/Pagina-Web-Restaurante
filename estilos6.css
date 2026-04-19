@@ -1,0 +1,71 @@
+body{
+    background-image: url('../imagenes/imagen\ 9.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title{
+    text-align: center;
+    color: rgb(184, 184, 184);
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    letter-spacing: 9px;
+}
+
+form{
+    width: 900px;
+    margin: 40px auto;
+    border: 3px solid rgba(254, 248, 248, 0.804);
+    padding: 25px;
+    background-color: rgb(254, 248, 248, 0.804); 
+    border-radius: 3px;
+}
+
+legend{
+    color: rgb(12, 12, 12);
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+
+}
+.fsetDatos label{
+    width: 50%;
+    float: left;
+}
+.form-group{
+    margin: 15px auto;
+    max-width: 600px;
+
+}
+input, select, textarea{
+    font-family: 'Poppins', sans-serif;
+}
+input:invalid, select:invalid{
+    border: 1px dashed rgba(255, 255, 255, 0);
+
+}
+input:valid, select:valid{
+    border: 1px  solid rgb(0, 0, 0);
+
+}
+.form-action{
+    margin: 15px;
+    text-align: center;
+}
+.btnRegistrar:hover{
+    padding: 15px 30px;
+    background-color: rgb(225, 223, 236);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+.btnCancelar:hover{
+    padding: 15px 30px;
+    background-color: rgb(224, 222, 238);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}

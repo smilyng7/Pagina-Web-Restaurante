@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="estilos6.css">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="title">
+                <h1>RESERVACIONES</h1>
+            </div>
+            <div>
+                <form class="form" id="form" name="form">
+                    
+                    <fieldset class="fsetDatos">
+
+                        <legend>Datos de la Reserva</legend>
+                        <div class="form-group">
+                        <label form="nombre">Nombre:</label>
+                        <input type="text" id="nombre" minlength="3" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label form="correo">Email:</label>
+                        <input type="email" id="correo" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label form="calendar">Fecha:</label>
+                        <input type="date" id="calendar" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Horario">Horario de reserva:</label>
+                        <select id="hora" required>
+
+                            <option value="12:00">12:00</option>
+                            <option value="13:00">13:00</option>
+                            <option value="14:00">14:00</option>
+                            <option value="15:00">15:00</option>
+                            <option value="16:00">16:00</option>
+                            <option value="17:00">17:00</option>
+                            <option value="18:00">18:00</option>
+                            <option value="19:00">19:00</option>
+                            <option value="20:00">20:00</option>
+                            <option value="21:00">21:00</option>
+
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                    <label for="personas">Cantidad de personas:</label>
+                    <input type="number" id="personas" min="1" max="6" required>
+                    </div>  
+
+                    <div class="form-group">
+                    <label for="Turno">Turno:</label>
+                    <select id="turno" name="turno" required>
+
+                        <option value="tarde">Tarde</option>
+                        <option value="noche">Noche</option>
+
+                    </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tele">Telefono:</label>
+                        <input type="tel" id="tele" required pattern="[0-9]{9}">
+                    </div>
+
+                    <div class="form-group">
+                    <label for="mensaje">Requerimiento Especial</label><br>
+                    <textarea name="mensaje" cols="90" rows="10"></textarea>
+
+                    </div>
+
+
+
+                    </fieldset>
+                    
+                    <div class="form-action">
+                        <!--<input type="submit" value="Enviar">!-->
+                        <button type="submit" class="btnRegistrar">Registrar</button>
+                        <input type="reset" value="Cancelar" class="btnCancelar">
+                    </div>
+                   
+                </form>
+            </div>
+        </div>
+    </body>
+    </html>
